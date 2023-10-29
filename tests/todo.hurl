@@ -16,3 +16,7 @@ Authorization: Bearer {{token}}
   "description": "This is a todo app",
   "done": false
 }
+
+HTTP 200
+[Asserts]
+jsonpath "$.message" == "Todo created"
