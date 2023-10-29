@@ -1,12 +1,23 @@
-FROM node:20 as builder
-
+FROM node:20-alpine
 WORKDIR /app
+
+ENV NODE_ENV production
+
+COPY --from=builder /app/package.json .
+COPY --from=builder /app/dist ./dist
+RUN npm install --omit=dev
+
+CMD ["npm", "run", "start"]
+
+EXPOSE 3000
 
 COPY package.json .
 COPY bun.lockb .
 
 RUN npm install -g bun
 RUN bun install
+
+# Production Stage
 
 COPY src src
 COPY tsup.config.ts .
