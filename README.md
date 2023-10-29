@@ -11,12 +11,17 @@
 
 [![IT Man - Building and Testing a #Hapi Server with #Hurl: A Step-By-Step Demo [Vietnamese]](https://i.ytimg.com/vi/LP_RXe8cM_s/hqdefault.jpg)](https://www.youtube.com/watch?v=LP_RXe8cM_s)
 
+## Prerequisites
+
+- [Bun](https://bun.sh/) installed on your system.
+- [antfu/ni](https://github.com/antfu/ni) 💡 Use the right package manager.
+
 ## 🚀 Quick Start
 
 ### Installation
 
 ```sh
-npm install
+ni
 ```
 
 ### Usage
@@ -24,7 +29,7 @@ npm install
 Start the development server:
 
 ```sh
-npm run dev
+nr dev
 ```
 
 Or run with docker compose:
@@ -32,6 +37,12 @@ Or run with docker compose:
 ```sh
 docker network create web
 docker-compose up
+```
+
+Run tests using Hurl:
+
+```sh
+nr test
 ```
 
 ## 📸 Screenshots
