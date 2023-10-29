@@ -15,7 +15,8 @@
     "dev:watch": "npx tsx --watch src/index.ts",
     "start": "node dist/index.js",
     "start:prod": "npx tsx src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@hapi/boom": "10.0.1",
@@ -30,6 +31,7 @@
     "jsonwebtoken": "9.0.2"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.4",
     "@types/node": "20.8.9",
     "tsup": "7.2.0",
     "tsx": "3.14.0",
