@@ -10,6 +10,9 @@ RUN npm install --omit=dev
 CMD ["npm", "run", "start"]
 
 EXPOSE 3000
+HEALTHCHECK --interval=30s --timeout=5s CMD curl -f http://localhost:3000/ || exit 1
+
+EXPOSE 3000
 
 COPY package.json .
 COPY bun.lockb .
