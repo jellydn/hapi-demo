@@ -1,6 +1,7 @@
 import Hapi from "@hapi/hapi";
 import Inert from "@hapi/inert";
 import Vision from "@hapi/vision";
+import "dotenv/config";
 import JwtAuth from "hapi-auth-jwt2";
 import Pino from "hapi-pino";
 import HapiSwagger from "hapi-swagger";
@@ -10,7 +11,7 @@ import { routes } from "./routes";
 const main = async () => {
   const server = Hapi.server({
     port: 3000,
-    host: "0.0.0.0",
+    host: process.env.SERVER_HOSTNAME ?? "0.0.0.0",
   });
 
   // Add logger
