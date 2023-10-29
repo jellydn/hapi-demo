@@ -73,6 +73,7 @@ hurl --verbose tests/todo.hurl
 
 - [Hapi - Official Documentation](https://hapi.dev/tutorials/?lang=en_US)
 - [Hurl - Run and Test HTTP Requests](https://hurl.dev/)
+- [jellydn/hurl.nvim: Hurl.nvim is a Neovim plugin that brings the power of the Hurl command line tool into your editor. Designed to run HTTP requests from `.hurl` files, this plugin simplifies the API development process, making it both efficient and versatile.](https://github.com/jellydn/hurl.nvim)
 
 ## 👤 Author
 
