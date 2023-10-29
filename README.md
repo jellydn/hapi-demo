@@ -9,6 +9,8 @@
 
 > A simple Hapi server for demonstration purposes, designed to work with Hurl for testing HTTP requests.
 
+[![IT Man - Building and Testing a #Hapi Server with #Hurl: A Step-By-Step Demo [Vietnamese]](https://i.ytimg.com/vi/LP_RXe8cM_s/hqdefault.jpg)](https://www.youtube.com/watch?v=LP_RXe8cM_s)
+
 ## 🚀 Quick Start
 
 ### Installation
