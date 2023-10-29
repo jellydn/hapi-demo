@@ -36,7 +36,13 @@ docker-compose up
 
 ## 📸 Screenshots
 
+### Swagger UI - http://localhost:3000/documentation
+
 [![Demo](https://i.gyazo.com/bc045297c712ac770900b91acd314031.gif)](https://gyazo.com/bc045297c712ac770900b91acd314031)
+
+### Testing with Hurl
+
+[![Hurl Test](https://i.gyazo.com/5b2f7c30f5511f0575e7a992a0795402.gif)](https://gyazo.com/5b2f7c30f5511f0575e7a992a0795402)
 
 ## ✅ Testing
 
