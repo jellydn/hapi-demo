@@ -6,11 +6,11 @@ import JwtAuth from "hapi-auth-jwt2";
 import Pino from "hapi-pino";
 import HapiSwagger from "hapi-swagger";
 
-import { routes } from "./routes";
+import { routes } from "./routes.js";
 
 const main = async () => {
   const server = Hapi.server({
-    port: 3000,
+    port: process.env.PORT ?? 3000,
     host: process.env.SERVER_HOSTNAME ?? "0.0.0.0",
   });
 
@@ -74,4 +74,4 @@ process.on("unhandledRejection", (err) => {
   process.exit(1);
 });
 
-main();
+await main();
