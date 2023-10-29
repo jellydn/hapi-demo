@@ -7,7 +7,7 @@
     "hurl"
   ],
   "license": "MIT",
-  "author": "Dung Huynh Duc",
+  "author": "Dung Huynh Duc <dung@productsway.com>",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsup src/index.ts",
