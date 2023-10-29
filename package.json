@@ -17,21 +17,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@hapi/boom": "^10.0.1",
-    "@hapi/hapi": "^21.3.2",
-    "@hapi/inert": "^7.1.0",
-    "@hapi/vision": "^7.0.3",
-    "hapi-auth-jwt2": "^10.4.0",
-    "hapi-pino": "^12.1.0",
+    "@hapi/boom": "10.0.1",
+    "@hapi/hapi": "21.3.2",
+    "@hapi/inert": "7.1.0",
+    "@hapi/vision": "7.0.3",
+    "hapi-auth-jwt2": "10.4.0",
+    "hapi-pino": "12.1.0",
     "hapi-swagger": "17.1.0",
-    "joi": "^17.11.0",
-    "jsonwebtoken": "^9.0.2"
+    "joi": "17.11.0",
+    "jsonwebtoken": "9.0.2"
   },
   "devDependencies": {
-    "@types/node": "^20.8.9",
-    "tsup": "^7.2.0",
-    "tsx": "^3.14.0",
-    "typescript": "^5.2.2"
+    "@types/node": "20.8.9",
+    "tsup": "7.2.0",
+    "tsx": "3.14.0",
+    "typescript": "5.2.2"
   },
   "engines": {
     "node": ">18.18.0"
