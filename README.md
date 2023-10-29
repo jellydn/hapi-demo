@@ -34,7 +34,7 @@ docker-compose up
 
 ## 📸 Screenshots
 
-> Coming Soon
+[![Demo](https://i.gyazo.com/bc045297c712ac770900b91acd314031.gif)](https://gyazo.com/bc045297c712ac770900b91acd314031)
 
 ## ✅ Testing
 
