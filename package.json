@@ -16,7 +16,7 @@
     "dev:watch": "npx tsx --watch src/index.ts",
     "start": "node dist/index.js",
     "start:prod": "npx tsx src/index.ts",
-    "test": "run-p -r dev test:hurl",
+    "test": "run-p -l -r dev test:hurl",
     "test:hurl": "wait-on tcp:3000 && hurl --test tests/*.hurl",
     "typecheck": "tsc --noEmit"
   },
