@@ -1,4 +1,4 @@
-FROM node:20 as builder
+FROM node:20.18.0 as builder
 
 WORKDIR /app
 
@@ -13,7 +13,7 @@ COPY tsup.config.ts .
 RUN bun run build
 
 # Production Stage
-FROM node:20-alpine
+FROM node:20.18.0-alpine
 WORKDIR /app
 
 # Set environment to production
